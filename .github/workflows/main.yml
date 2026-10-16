@@ -2,7 +2,7 @@ name: main
 # To get trigger on every push in this repo in any branch
 on: 
   schedule:
-  - cron: '7,17,27,37,47,57 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch:
   push: 
   
