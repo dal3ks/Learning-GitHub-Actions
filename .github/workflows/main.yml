@@ -1,10 +1,10 @@
 name: main
 # To get trigger on every push in this repo in any branch
 on: 
-  push:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
+  push: 
   
 jobs:
   job1:
